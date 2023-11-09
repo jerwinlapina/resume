@@ -5,19 +5,7 @@ header {
     background: #ccc;
     padding: 20px;
 }
- article{
-    float: left;
-   /* width: 20%;*/
-    height:50pc;
-    background: #ccc;
-    padding: 20px;
- }
 
-
-article ul {
-     list-style-type: none;
-     padding: 0;
-}
  section {
     float: left;
     padding: 20px;
@@ -48,8 +36,15 @@ span{
     font-size:medium;
 }
 
-span2{
+.fitalic{
     font-weight: bold;
     font-style: italic;
     font-size: large;
 }
+
+body {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
